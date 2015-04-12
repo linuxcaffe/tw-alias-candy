@@ -1,1 +1,0 @@
-/home/djp/bin/context.psudo.sh
