@@ -1,7 +1,7 @@
 # tw-alias-candy
 _A few "cute" alias configs, and associated scripts, for common task commands_
 
-Using taskwarrior.org command-aliases, this is a collection of command-line candy (short configuration switches)
+This is a collection of command-line candy Using taskwarrior.org command-aliases (short configuration switches) and taking advantage of places the parser doesn't go. They don't work together in _any_ comibination, but I've found them handy and Mostly Harmless.
 
     Activate these command liases by copying them to your .taskrc, 
     or by including this file from your .taskrc with something like;
@@ -28,7 +28,7 @@ alias.@:=execute context.psudo.sh
 
 #    .
 # translates to "ID of the last task modified".
-alias..=execute last-mod.sh
+alias..=execute lastmod.sh
 # requires last-mod.sh to be in your $PATH
 
 #    ..
