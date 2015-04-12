@@ -9,48 +9,55 @@ This is a collection of command-line candy Using taskwarrior.org command-aliases
 include ~/.task/alias.data
 </pre>
 
-#    @
-# a simple alias for the context command
-alias.@=context
+###    @
+a simple alias for the context command
 
-#    @?
-# list all contexts
-alias.@?=context list
+    alias.@=context
 
-#    -@
-# temporarily override context setting (if any)
-alias.-@=rc.context:none
+###    @?
+list all contexts
 
-#    @:
-# temporarily set the context (the trailing space '@: ' is required)
-alias.@:=execute context.psudo.sh
-# requires context.psudo.sh to be in your $PATH
+    alias.@?=context list
 
-#    .
-# translates to "ID of the last task modified".
-alias..=execute lastmod.sh
-# requires last-mod.sh to be in your $PATH
+###    -@
+temporarily override context setting (if any)
 
-#    ..
-# translates to the ID of the last (newest) task created.
-alias...=execute latest.sh
-# requires latest.sh to be in your $PATH
+    alias.-@=rc.context:none
+
+###    @:
+temporarily set the context (the trailing space '@: ' is required)
+
+    alias.@:=execute context.psudo.sh
+(requires context.psudo.sh to be in your $PATH)
+
+###    .
+translates to "ID of the last task modified".
+
+    alias..=execute lastmod.sh
+(requires lastmod.sh to be in your $PATH)
+
+###    ..
+translates to the ID of the last (newest) task created.
+
+    alias...=execute latest.sh
+(requires latest.sh to be in your $PATH)
 
 
-#    :
-# limits the verboseity of the feedback messages to label and filter
-alias.:=rc.verbose:label,filter
+###    :
+limits the verboseity of the feedback messages to label and filter
 
-#    _
-# limits verbosity to "nothing", (nothing but tasks)
+(alias.:=rc.verbose:label,filter)
+
+###    _
+limits verbosity to "nothing", (nothing but tasks)
 
     alias._=rc.verbose:nothing
 
-#    :P
-# short for limit:page
+###    :P
+short for limit:page
 
     alias.:p=limit:page
-# also means smiley with tongue sticking out :)
+(also means smiley with tongue sticking out :)
 ~                                                     
 
 If you have improvements, or others, please comment or pull-request.
