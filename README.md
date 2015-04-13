@@ -33,7 +33,7 @@ temporarily set the context (the trailing space '@: ' is required)
 
 ----
 ###    .
-translates to "ID of the last task modified".
+translates to "UUID of the last task modified".
 
     alias..=execute lastmod.sh
 
