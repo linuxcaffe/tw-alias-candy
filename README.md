@@ -51,14 +51,14 @@ translates to the ID of the last (newest) task created.
 ###    :
 limits the verboseity of the feedback messages to label and filter
 
-    (alias.:=rc.verbose:label,filter)
+    alias.:=rc.verbose:label,filter
 ----
 ###    _
 limits verbosity to "nothing", (nothing but tasks)
 
     alias._=rc.verbose:nothing
 ----
-###    :P
+###    :p
 short for limit:page
 
     alias.:p=limit:page
