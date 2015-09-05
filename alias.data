@@ -29,7 +29,18 @@ alias..=execute lastmod.sh
 # translates to the ID of the last (newest) task created.
 alias...=execute latest.sh
 # requires latest.sh to be in your $PATH
-#
+
+#    ..a
+# annotate of the last (newest) task created
+# on the same line, at the same time, as adding a new task
+alias...a= ; task .. annotate
+# requires latest.sh to be in your $PATH
+
+#    ..m
+# modify the last (newest) task created.
+alias...m= .. modify
+# requires latest.sh to be in your $PATH
+
 #    :
 # limits the verboseity of the feedback messages to label and filter
 alias.:=rc.verbose:label,filter
