@@ -28,18 +28,16 @@ alias..=execute lastmod.sh
 #    ..a
 # annotate of the last (newest) task created
 # on the same line, at the same time, as adding a new task
-#alias...a=$(execute lastmod.sh) annotate
+alias...a=+LATEST annotate
 # requires latest.sh to be in your $PATH
 
 #    ..
 # translates to the ID of the last (newest) task created.
-alias...=execute latest.sh
-# requires latest.sh to be in your $PATH
+alias...=+LATEST 
 
 #    ..m
 # modify the last (newest) task created.
-#alias...m= .. modify
-# requires latest.sh to be in your $PATH
+alias...m=+LATEST modify
 
 #    :
 # limits the verboseity of the feedback messages to label and filter
