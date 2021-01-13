@@ -6,7 +6,7 @@ This is a collection of command-line candy Using taskwarrior.org command-aliases
     Activate these command aliases by copying them to your .taskrc, 
     or by including this file from your .taskrc with something like;
 <pre>
-include ~/.task/alias.data
+include ~/.task/alias-candy.rc
 </pre>
 ----
 ###    @
