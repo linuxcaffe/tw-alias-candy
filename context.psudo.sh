@@ -10,5 +10,5 @@ task rc.context:$*
 # so that the following command:
 # 'task @: work filter1 filter2'
 # is converted to
-# 'task re.context:work filter1 filter2'
+# 'task rc.context:work filter1 filter2'
 # resulting in a "one-shot" context-override
