@@ -1,7 +1,7 @@
 # tw-alias-candy
 _A few "cute" alias configs, and associated scripts, for common task commands_
 
-This is a collection of command-line candy Using taskwarrior.org command-aliases (short configuration switches) and taking advantage of cracks in the syntax, places the tw parser doesn't go. They don't work together in _any_ comibination, but I've found them handy and Mostly Harmless. 
+This is a collection of command-line candy Using taskwarrior.org command-aliases (short configuration switches) and taking advantage of cracks in the syntax, places the tw parser doesn't go. They don't work together in _any_ combination, but I've found them handy and Mostly Harmless. 
 
     Activate these command liases by copying them to your .taskrc, 
     or by including this file from your .taskrc with something like;
@@ -49,7 +49,7 @@ translates to the ID of the last (newest) task created.
 
 ----
 ###    :
-limits the verboseity of the feedback messages to label and filter
+limits the verbosity of the feedback messages to label and filter
 
     alias.:=rc.verbose:label,filter
 ----
