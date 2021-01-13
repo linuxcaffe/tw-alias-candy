@@ -3,7 +3,7 @@ _A few "cute" alias configs, and associated scripts, for common task commands_
 
 This is a collection of command-line candy Using taskwarrior.org command-aliases (short configuration switches) and taking advantage of cracks in the syntax, places the tw parser doesn't go. They don't work together in _any_ combination, but I've found them handy and Mostly Harmless. 
 
-    Activate these command liases by copying them to your .taskrc, 
+    Activate these command aliases by copying them to your .taskrc, 
     or by including this file from your .taskrc with something like;
 <pre>
 include ~/.task/alias.data
