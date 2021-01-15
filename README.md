@@ -1,7 +1,7 @@
 # tw-alias-candy
 _A few "cute" alias configs, and associated scripts, for common taskwarrior commands_
 
-This is a collection of command-line candy, using task's command-aliases (short configuration switches) and taking advantage of cracks in the syntax (things that the tw parser will allow). Using more than one of these shortcuts, in the same command string, won't work.
+This is a collection of command-line candy, using task's command-aliases (short configuration switches) and taking advantage of cracks in the syntax (things that the tw parser will allow).
 
 I've found them to be real handy and Mostly Harmless. 
 
