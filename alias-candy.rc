@@ -29,7 +29,6 @@ alias..=execute lastmod.sh
 # annotate of the last (newest) task created
 # on the same line, at the same time, as adding a new task
 alias...a=+LATEST annotate
-# requires latest.sh to be in your $PATH
 
 #    ..
 # translates to the ID of the last (newest) task created.
@@ -47,7 +46,7 @@ alias.:=rc.verbose:label,filter
 # limits verbosity to "nothing", (nothing but tasks)
 alias._=rc.verbose:nothing
 
-#    :P
+#    :p
 # short for limit:page
 alias.:p=limit:page
 # also means smiley with tongue sticking out :)

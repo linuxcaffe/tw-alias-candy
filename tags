@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/djp/.task/scripts/tw-alias-candy/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210815.0/
+-@	README.md	/^###    -@$/;"	S	section:tw-alias-candy""alias.@?=context list
+.	README.md	/^###    .$/;"	S	section:tw-alias-candy""alias.-@=rc.context:none
+..	README.md	/^###    ..$/;"	S	section:tw-alias-candy""alias.-@=rc.context:none
+:	README.md	/^###    :$/;"	S	section:tw-alias-candy""alias.-@=rc.context:none
+:p	README.md	/^###    :p$/;"	S	section:tw-alias-candy""alias._=rc.verbose:nothing
+</pre>	README.md	/^<\/pre>$/;"	s	chapter:tw-alias-candy
+@	README.md	/^###    @$/;"	S	section:tw-alias-candy""</pre>
+@:	README.md	/^###    @:$/;"	S	section:tw-alias-candy""alias.-@=rc.context:none
+@?	README.md	/^###    @?$/;"	S	section:tw-alias-candy""alias.@=context
+_	README.md	/^###    _$/;"	S	section:tw-alias-candy""alias.:=rc.verbose:label,filter
+alias.-@=rc.context:none	README.md	/^    alias.-@=rc.context:none$/;"	s	chapter:tw-alias-candy
+alias.:=rc.verbose:label,filter	README.md	/^    alias.:=rc.verbose:label,filter$/;"	s	chapter:tw-alias-candy
+alias.@=context	README.md	/^    alias.@=context $/;"	s	chapter:tw-alias-candy
+alias.@?=context list	README.md	/^    alias.@?=context list$/;"	s	chapter:tw-alias-candy
+alias._=rc.verbose:nothing	README.md	/^    alias._=rc.verbose:nothing$/;"	s	chapter:tw-alias-candy
+tw-alias-candy	README.md	/^# tw-alias-candy$/;"	c

@@ -45,9 +45,7 @@ translates to "UUID of the last task modified".
 ###    ..
 translates to the ID of the last (newest) task created.
 
-    alias...=execute latest.sh
-
-(requires latest.sh to be in your $PATH)
+    alias...=+LATEST
 
 ----
 ###    :
